@@ -29,9 +29,9 @@ Six binary labels, 160k comments, extreme class imbalance (threat: 0.3 %, identi
 
 | Metric | BiRNN | BiLSTM |
 |---|---|---|
-| Macro-F1 | 0.612 | **0.641** |
-| Micro-F1 | 0.736 | **0.755** |
-| Macro-AUC | **0.984** | 0.968 |
+| Macro-F1 | 0.6182 | **0.6368** |
+| Micro-F1 | 0.7475 | **0.7559** |
+| Macro-AUC | 0.9376 | **0.9571** |
 
 The LSTM wins on threshold-tuned F1; the RNN wins on ranking quality. Section 6 of the notebook unpacks that trade-off per class.
 
